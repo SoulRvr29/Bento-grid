@@ -4,7 +4,7 @@ import "./globals.css";
 const DMSans = localFont({
   src: "./fonts/DMSans-VariableFont_opsz,wght.ttf",
   variable: "--font-dmsans",
-  weight: "400 500",
+  weight: "400 500 600",
 });
 
 const DMSansItalic = localFont({
