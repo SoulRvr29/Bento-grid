@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="font-[family-name:var(--font-dmsans)]">
+    <div className="font-[family-name:var(--font-dmsans)] ">
       <main className="flex flex-col gap-8">
         <section className="bg-purple-dark text-white p-10">
           <h1 className="text-5xl font-[500] mb-2">
@@ -48,7 +48,7 @@ export default function Home() {
             width={320}
             height={320}
           />
-          <p className="px-8">
+          <p className="px-4">
             Optimize post timings to publish content at the perfect time for
             your audience.
           </p>
@@ -90,7 +90,7 @@ export default function Home() {
           />
         </section>
         <section className="bg-yellow-dark flex flex-col gap-6 p-6">
-          <h2 className="text-3xl">Write youur content using AI.</h2>
+          <h2 className="text-3xl leading-7">Write youur content using AI.</h2>
           <Image
             src="/illustration-ai-content.webp"
             alt="ai content"
@@ -99,7 +99,7 @@ export default function Home() {
           />
         </section>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

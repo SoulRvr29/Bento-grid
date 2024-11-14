@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="absolute mx-auto w-full left-0 bottom-0 text-center font-bold text-base text-Rose500 p-4 max-lg:p-4 max-lg:text-xs  border-t-2 border-Rose100">
+    <footer className="mt-6 mx-auto w-full text-center font-bold p-4 max-lg:p-4 max-lg:text-xs border-t-2 border-purple-dark">
       Challenge by
       <a
         className="text-purple-500 ml-1 hover:text-yellow-500 hover:underline"
