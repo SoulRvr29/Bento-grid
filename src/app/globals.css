@@ -24,7 +24,7 @@ body {
   background-color: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  padding: 2rem 1rem 0rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,7 @@ section {
   gap: 1rem;
   max-width: 30rem;
   box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  min-width: 100%;
 }
 
 h2 {
