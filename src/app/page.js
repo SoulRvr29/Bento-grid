@@ -44,20 +44,18 @@ export default function Home() {
               height={200}
             />
           </section>
-          <section className="bg-purple-light py-8 col-start-3 row-span-2 -order-2 max-md:-order-none">
-            <h2 className="text-center max-md:text-2xl text-3xl leading-7">
+          <section className="bg-purple-light py-8 col-start-3 row-span-2 -order-2 max-md:-order-none justify-between overflow-clip relative max-md:items-center ">
+            <h2 className="max-md:text-center max-md:text-2xl text-3xl leading-7">
               Schedule to social media.
             </h2>
-            <div>
-              <Image
-                className="py-2 w-[300px] "
-                src="/illustration-schedule-posts.webp"
-                alt="schedule"
-                width={320}
-                height={320}
-              />
-            </div>
-            <p className="px-4">
+            <Image
+              className="py-2 max-md:static absolute left-6 top-[8rem]"
+              src="/illustration-schedule-posts.webp"
+              alt="schedule"
+              width={320}
+              height={320}
+            />
+            <p className="px-4 max-md:text-center text-start">
               Optimize post timings to publish content at the perfect time for
               your audience.
             </p>
@@ -101,7 +99,7 @@ export default function Home() {
             />
           </section>
           <section className="bg-yellow-dark flex flex-col gap-6 p-6 items-center max-md:items-start">
-            <h2 className="text-3xl leading-7">Write your content using AI.</h2>
+            <h2 className="text-4xl leading-7">Write your content using AI.</h2>
             <Image
               src="/illustration-ai-content.webp"
               alt="ai content"
@@ -111,7 +109,7 @@ export default function Home() {
           </section>
         </div>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
