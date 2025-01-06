@@ -18,9 +18,11 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshot.jpeg)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/bento-grid-z6MvJRoho8](https://www.frontendmentor.io/solutions/bento-grid-z6MvJRoho8)
 - Live Site URL: [https://bento-grid-ivory.vercel.app/](https://bento-grid-ivory.vercel.app/)
 
 ### Built with
